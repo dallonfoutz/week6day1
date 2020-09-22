@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-family: Helvetica, arial, serif;
+	padding: 10px;
+	border-bottom: 2px, solid, #000000;
+	margin-left: 8.6%;
+}
+
+#appendToMe {
+	text-align: center;
+}
+.inStock {
+	display: flex;
+	justify-content: space-between;
+}
+
+.inStock, .notInStock {
+ 	padding: 10px;
+ 	margin: 10px auto;
+  	font-family: Helvetica, arial;
+	border-radius: 3px;
+	border-style: solid;
+	border-width: thin;
+	width: 80%;
+}
+
+#clickMe {
+	display: inline-block;
+	padding: 10px;
+	height: 20px;
+	width: 85px;
+	text-align: center;
+  	font-family: Helvetica;
+	border-color: #000000;
+	border-radius: 3px;
+	border-style: solid;
+	border-width: thin;
+	margin-left: 9.25%;
+}
+
+#clickMe:hover {
+	cursor: pointer;
+}
+
+.item {
+	flex-basis: 33%;
+}
+
+.darkMode {
+	background-color: #282828;
+	color: #FFF;
+
+}
+
+.darkMode #clickMe {
+	border-color: #FFF;
+}
