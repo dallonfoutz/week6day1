@@ -61,3 +61,7 @@ h1 {
 .darkMode #clickMe {
 	border-color: #FFF;
 }
+
+.darkMode #hello {
+	background-color: #414141;
+}

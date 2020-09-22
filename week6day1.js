@@ -70,7 +70,7 @@ const storeItems = [
   storeItems.forEach(function(item) {
     if (item.inStock === true) {
        $('#appendToMe').append
-       (`<div class='inStock'>
+       (`<div id="hello" class='inStock'>
 			<div class="item">$${item.price}</div> 
 			<div class="item">${item.name}</div> 
 			<div class="item">${item.details}</div>
